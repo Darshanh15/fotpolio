@@ -1,0 +1,62 @@
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    font-size: 1.5rem;
+}
+.icons i{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(117, 24, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 100px;
+}
+.icons a{
+    text-decoration: none;
+}
+.navbar{
+    position: sticky !important;
+    top: 0 !important;
+}
+/* hero section */
+.hero{
+    background: url('./wave-haikei.svg') no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    overflow: hidden;
+}
+.hedding{
+    font-weight: 900;
+    letter-spacing: 1.3px;
+}
+.text-main{
+    color: #3661fc;
+}
+/* button */
+.hire-btn{
+    border: none;
+    padding: 10px;
+    min-width: 150px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #3661fc;
+    color: #fff;
+}
+.cv-btn{
+    border: none;
+    padding: 10px;
+    min-width: 150px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background: #3661fc52;
+    border: 1px solid #3661fce2;
+
+}
+.hero-image img{
+    width: 80%;
+    transform: translateY(-100px) translateX(100);
+}
+.her-text{
+    margin-top: 100px;
+}
